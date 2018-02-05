@@ -20,4 +20,4 @@ J2ee layered architecture followed - Service layer which delegates to a handler 
 Handler patter(Chain of Responsibility) implemented
 Proper Logs added where ever needed(not included in all the class)
 Exception handling implemented
-Sample test case created with a test suite(to see code coverage)
+Sample test case created with a test suite(not all test scenarios covered - implemented as part of Production quality standard)
