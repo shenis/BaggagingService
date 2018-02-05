@@ -8,9 +8,9 @@ Execution steps:
 2. 	Execute the java file TestAirportBaggageService from the package com.barclays.main
     If you are opening in Eclipse right click and run as java Application
 
-3.  Input will be read from the input.txt file in the /barclays_airport_baggaging/src/main/resources folder
+3.  Input will be read from the input.txt file in the src/main/resources folder
     if you want to change the input arguments please modify this file accordingly
-4.  Output is displayed in the console - sample out file(output.txt) is attached in the /barclays_airport_baggaging/src/main/resources folder
+4.  Output is displayed in the console - sample out file(output.txt) is attached in the src/main/resources folder
 
 
 Note:-
