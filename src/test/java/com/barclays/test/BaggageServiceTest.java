@@ -3,8 +3,14 @@
  */
 package com.barclays.test;
 
+import static org.hamcrest.CoreMatchers.is;
+import static org.hamcrest.CoreMatchers.not;
+import static org.hamcrest.MatcherAssert.assertThat;
+
 import java.util.Map;
 
+import org.hamcrest.Matchers;
+import org.hamcrest.collection.IsMapContaining;
 import org.junit.After;
 import org.junit.Assert;
 import org.junit.Before;
@@ -43,6 +49,7 @@ public class BaggageServiceTest {
 		
 		Map<String, BaggageVO> baggageMap = baggageService.getBaggageService();
 		Assert.assertNotNull(baggageMap);
+		Assert.assertThat(baggageMap.size(), is(5));
+		
 	}
-	
 }

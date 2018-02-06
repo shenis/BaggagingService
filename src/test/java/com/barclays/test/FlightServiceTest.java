@@ -3,6 +3,8 @@
  */
 package com.barclays.test;
 
+import static org.hamcrest.CoreMatchers.is;
+
 import java.util.Map;
 
 import org.junit.After;
@@ -37,9 +39,10 @@ public class FlightServiceTest {
 	}
 	
 	@Test
-	public void testConveyorService() throws Exception{
+	public void testFlightService() throws Exception{
 		
 		 Map<String, FlightDepartureVO> flightMap = flightService.getFlightService();
 		 Assert.assertNotNull(flightMap);
+		 Assert.assertThat(flightMap.size(), is(9));
 	}
 }

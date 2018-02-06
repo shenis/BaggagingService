@@ -39,5 +39,6 @@ public class ConveyorServiceTest {
 	public void testConveyorService() throws Exception{
 		ConveyorGraph conveyorGraph = conveyorService.getConveyor();
 		Assert.assertNotNull(conveyorGraph);
+		
 	}
 }
